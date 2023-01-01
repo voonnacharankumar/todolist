@@ -10,7 +10,7 @@ app.set('view engine',"ejs");
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
-const MONGO_URL="mongodb+srv://CharanKumar:Charan999@cluster0.mpvr0.mongodb.net/todolistDB";
+const MONGO_URL="MONGOURL";
 mongoose.connect(MONGO_URL, {
   useUnifiedTopology: true,
 })
